@@ -1,2 +1,7 @@
 This project is a compilation of all python notebooks created for the IBM Data Science Professional Certificate Capstone. 
-Additionally there is a PDF Report containing the findings of this project
+During this capstone, SpaceX launch data was collected using the SpaceX API and web-scraping SpaceX's Wikapedia Page. 
+The data wrangling was used to fill Null  values and adjust the landing outcome to a numeric value to be used for further prediction models.
+The data was normalized into a Pandas Data Frame where folow on exploratory data analysis was conducted    
+A dashboard was created to allow a user to display success rates based on variables like Payload Mass and Launch Site 
+The data was normalized and split into training and test sets to be run through four different calssification models: KNN, Logistic Regression, SVM and Decision Trees. 
+Each model performed similarly on the test data, all reaching an output of approximately 83% accuracy. 
